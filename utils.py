@@ -1,3 +1,8 @@
+from collections import namedtuple
+
+GameState = namedtuple('GameState', 'to_move, utility, board, moves')
+
+
 class Game:
     def actions(self, state):
         """Return a list of the allowable moves at this point."""
