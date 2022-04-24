@@ -1,11 +1,3 @@
-## Name: Furkan Goktas Date: 2/9/2022
-## Assignment: Module 5 &6: Project - Adversarial Search  Due Date: 2/13/2022
-## About this project: The goal of the game is to avoid taking the last object.
-## Computer selects its next moved using an Alpha-beta pruning algorithm.
-## Assumptions: The program assumes user input will be string.
-## The computer moves are getting slower if the pile number is high (pileNumber > 5 is calculating very slowly)
-## References: The games.py file provided on Canvas
-
 import random
 from collections import namedtuple
 
