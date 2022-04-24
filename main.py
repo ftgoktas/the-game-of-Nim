@@ -10,7 +10,7 @@ import random
 from collections import namedtuple
 
 import numpy as np
-from nimgame import *
+from utils import *
 
 GameState = namedtuple('GameState', 'to_move, utility, board, moves')
 
